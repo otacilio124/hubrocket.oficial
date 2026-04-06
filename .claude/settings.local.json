@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E '\\\\.\\(html|js|css|json|md|txt\\)$')",
+      "Bash(find . -not -path */node_modules/* -not -path */.git/*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install:*)",
+      "Bash(npm list:*)",
+      "Bash(npx vite:*)"
+    ]
+  }
+}

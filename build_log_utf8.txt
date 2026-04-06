@@ -1,0 +1,104 @@
+﻿
+> aerohub-dev@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 4 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 59ms
+No linha:1 caractere:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mÔ£ù[39m   
+  Build failed in 5    
+9ms:String) [], Re    
+moteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[@tailwindcss/vite
+:generate:build] 
+Cannot apply unknown 
+utility class 
+`bg-opacity-20`[31m
+file: [36mC:/Users/ota
+cilio.neto/Documents/Pr
+ojetos/AeroHub_Dev/src/
+index.css[31m
+    at 
+onInvalidCandidate (fil
+e:///C:/Users/otacilio.
+neto/Documents/Projetos
+/AeroHub_Dev/node_modul
+es/tailwindcss/dist/chu
+nk-L5IEUH3R.mjs:21:1511
+)
+    at $e (file:///C:/U
+sers/otacilio.neto/Docu
+ments/Projetos/AeroHub_
+Dev/node_modules/tailwi
+ndcss/dist/chunk-L5IEUH
+3R.mjs:16:37066)
+    at file:///C:/Users
+/otacilio.neto/Document
+s/Projetos/AeroHub_Dev/
+node_modules/tailwindcs
+s/dist/chunk-L5IEUH3R.m
+js:21:355
+    at Ar (file:///C:/U
+sers/otacilio.neto/Docu
+ments/Projetos/AeroHub_
+Dev/node_modules/tailwi
+ndcss/dist/chunk-L5IEUH
+3R.mjs:3:1733)
+    at I (file:///C:/Us
+ers/otacilio.neto/Docum
+ents/Projetos/AeroHub_D
+ev/node_modules/tailwin
+dcss/dist/chunk-L5IEUH3
+R.mjs:3:1377)
+    at Ce (file:///C:/U
+sers/otacilio.neto/Docu
+ments/Projetos/AeroHub_
+Dev/node_modules/tailwi
+ndcss/dist/chunk-L5IEUH
+3R.mjs:21:172)
+    at Gi (file:///C:/U
+sers/otacilio.neto/Docu
+ments/Projetos/AeroHub_
+Dev/node_modules/tailwi
+ndcss/dist/chunk-L5IEUH
+3R.mjs:38:294)
+    at async ao (file:/
+//C:/Users/otacilio.net
+o/Documents/Projetos/Ae
+roHub_Dev/node_modules/
+tailwindcss/dist/chunk-
+L5IEUH3R.mjs:38:631)
+    at async vf (file:/
+//C:/Users/otacilio.net
+o/Documents/Projetos/Ae
+roHub_Dev/node_modules/
+tailwindcss/dist/chunk-
+L5IEUH3R.mjs:38:1406)
+    at async uu (file:/
+//C:/Users/otacilio.net
+o/Documents/Projetos/Ae
+roHub_Dev/node_modules/
+@tailwindcss/node/dist/
+index.mjs:10:3458)[39m
+
