@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import WhatsAppFAB from './components/WhatsAppFAB';
 import Leadership from './components/Leadership';
 import LoadingScreen from './components/LoadingScreen';
-import ScrollMeteor from './components/ScrollMeteor';
 
 /* ─── App ────────────────────────────────────────────────────────────────────── */
 function App() {
