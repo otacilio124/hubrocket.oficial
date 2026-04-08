@@ -28,8 +28,6 @@ function App() {
                 animate={{ opacity: isLoading ? 0 : 1 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
             >
-                {/* Meteoro scroll-driven + lua */}
-                <ScrollMeteor />
 
                 <Navbar />
 
