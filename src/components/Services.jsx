@@ -94,7 +94,7 @@ const cardVariants = {
 
 const Services = () => {
     return (
-        <section id="services" className="py-24 px-6 max-w-7xl mx-auto relative overflow-hidden">
+        <section id="services" className="py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto relative overflow-hidden">
             {/* Background Illustration */}
             <div className="absolute top-0 -left-10 opacity-20 pointer-events-none hidden lg:block">
                 <Satellite />
@@ -125,7 +125,7 @@ const Services = () => {
                         whileInView="visible"
                         viewport={{ once: true }}
                         whileHover={{ y: -12, transition: { type: "spring", stiffness: 300, damping: 20 } }}
-                        className="group relative p-8 rounded-3xl glass border border-white/5 overflow-hidden cursor-pointer"
+                        className="group relative p-6 sm:p-8 rounded-3xl glass border border-white/5 overflow-hidden cursor-pointer"
                         style={{ '--glow': service.glow }}
                     >
                         {/* Hover border glow */}

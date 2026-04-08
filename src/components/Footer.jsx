@@ -6,9 +6,9 @@ import logo from '../assets/Rocket.png';
 const Footer = () => {
     return (
         <footer className="border-t border-white/5 pt-20 pb-10 px-6">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+            <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12 mb-16 sm:mb-20">
                 {/* Brand */}
-                <div className="col-span-1 md:col-span-1">
+                <div className="col-span-2 md:col-span-1">
                     <motion.div
                         className="flex items-center gap-2 mb-6 cursor-pointer"
                         whileHover={{ scale: 1.05 }}
@@ -60,7 +60,7 @@ const Footer = () => {
                     <ul className="space-y-4 text-sm text-text-primary/60">
                         <li><a href="#leadership" className="hover:text-white transition-colors">Quem Somos</a></li>
                         <li><a href="#" className="hover:text-white transition-colors">Portfólio</a></li>
-                        <li><a href="#pricing" className="hover:text-white transition-colors">Planos</a></li>
+                        <li><a href="#orcamento" className="hover:text-white transition-colors">Orçamento</a></li>
                         <li><a href="#" className="hover:text-white transition-colors">Contato</a></li>
                     </ul>
                 </div>

@@ -1,43 +1,62 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import Pricing from './components/Pricing';
+import OrcamentoBanner from './components/OrcamentoBanner';
 import CustomDevBanner from './components/CustomDevBanner';
 import Footer from './components/Footer';
 import WhatsAppFAB from './components/WhatsAppFAB';
 import Leadership from './components/Leadership';
+import LoadingScreen from './components/LoadingScreen';
+import ScrollMeteor from './components/ScrollMeteor';
 
+/* ─── App ────────────────────────────────────────────────────────────────────── */
 function App() {
-  return (
-    <div className="min-h-screen bg-bg-primary text-text-primary selection:bg-accent-primary/30">
-      <Navbar />
+    const [isLoading, setIsLoading] = useState(true);
+    const handleLoadingComplete = useCallback(() => setIsLoading(false), []);
 
-      <main>
-        <Hero />
+    return (
+        <div className="min-h-screen bg-bg-primary text-text-primary selection:bg-accent-primary/30">
+            <AnimatePresence>
+                {isLoading && (
+                    <LoadingScreen key="loading" onComplete={handleLoadingComplete} />
+                )}
+            </AnimatePresence>
 
-        {/* Section Wrappers for Scroll Reveal */}
-        <section id="services">
-          <Services />
-        </section>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: isLoading ? 0 : 1 }}
+                transition={{ duration: 0.8, ease: 'easeOut' }}
+            >
+                {/* Meteoro scroll-driven + lua */}
+                <ScrollMeteor />
 
-        <section id="leadership">
-          <Leadership />
-        </section>
+                <Navbar />
 
-        <section id="pricing">
-          <Pricing />
-        </section>
+                <main>
+                    <Hero />
 
-        <section id="custom-dev">
-          <CustomDevBanner />
-        </section>
-      </main>
+                    <section id="services">
+                        <Services />
+                    </section>
 
-      <Footer />
-      <WhatsAppFAB />
-    </div>
-  );
+                    <section id="leadership">
+                        <Leadership />
+                    </section>
+
+                    <OrcamentoBanner />
+
+                    <section id="custom-dev">
+                        <CustomDevBanner />
+                    </section>
+                </main>
+
+                <Footer />
+                <WhatsAppFAB />
+            </motion.div>
+        </div>
+    );
 }
 
 export default App;

@@ -307,7 +307,7 @@ const Hero = () => {
                     </span>
                 </motion.div>
 
-                <h1 className="text-6xl md:text-[100px] font-black mb-8 leading-[0.9] tracking-tighter font-montserrat uppercase">
+                <h1 className="text-[2.1rem] sm:text-5xl md:text-7xl lg:text-[100px] font-black mb-6 sm:mb-8 leading-[0.92] tracking-tighter font-montserrat uppercase">
                     Construímos{' '}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-primary via-[#A855F7] to-accent-cta drop-shadow-sm">
                         Software
@@ -317,7 +317,7 @@ const Hero = () => {
                 </h1>
 
                 <motion.p
-                    className="text-xl md:text-2xl text-text-primary/70 mb-14 max-w-3xl mx-auto leading-tight font-medium"
+                    className="text-base sm:text-xl md:text-2xl text-text-primary/70 mb-10 sm:mb-14 max-w-3xl mx-auto leading-snug font-medium"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
@@ -334,12 +334,12 @@ const Hero = () => {
                 >
                     <button
                         onClick={handleWhatsApp}
-                        className="bg-accent-primary hover:bg-accent-primary/90 text-white px-12 py-6 rounded-full font-black text-2xl transition-all hover:scale-105 active:scale-95 flex items-center gap-4 group shadow-2xl shadow-accent-primary/40 uppercase tracking-tight"
+                        className="bg-accent-primary hover:bg-accent-primary/90 text-white px-7 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full font-black text-base sm:text-xl md:text-2xl transition-all hover:scale-105 active:scale-95 flex items-center gap-3 sm:gap-4 group shadow-2xl shadow-accent-primary/40 uppercase tracking-tight"
                     >
                         Iniciar Projeto
-                        <ArrowRight className="w-7 h-7 group-hover:translate-x-2 transition-transform" />
+                        <ArrowRight className="w-5 h-5 sm:w-7 sm:h-7 group-hover:translate-x-2 transition-transform" />
                     </button>
-                    <button className="px-12 py-6 rounded-full font-bold text-2xl border-2 border-white/20 hover:bg-white/5 transition-all text-white/90 hover:text-white backdrop-blur-sm uppercase tracking-tight hover:border-white/40">
+                    <button className="px-7 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full font-bold text-base sm:text-xl md:text-2xl border-2 border-white/20 hover:bg-white/5 transition-all text-white/90 hover:text-white backdrop-blur-sm uppercase tracking-tight hover:border-white/40">
                         Ver Portfólio
                     </button>
                 </motion.div>
