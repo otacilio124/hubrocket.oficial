@@ -295,17 +295,6 @@ const Hero = () => {
                 transition={{ duration: 1.0, ease: [0.2, 0.8, 0.3, 1] }}
                 className="z-20 max-w-5xl text-center relative"
             >
-                <motion.div
-                    className="inline-flex items-center gap-2 bg-accent-primary/10 border border-accent-primary/20 px-4 py-1.5 rounded-full mb-8 mx-auto"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.6, delay: 0.3 }}
-                >
-                    <Sparkles className="w-4 h-4 text-accent-primary" />
-                    <span className="text-xs font-semibold uppercase tracking-wider text-accent-primary font-montserrat">
-                        Engenharia de Alto Nível
-                    </span>
-                </motion.div>
 
                 <h1 className="text-[2.1rem] sm:text-5xl md:text-7xl lg:text-[100px] font-black mb-6 sm:mb-8 leading-[0.92] tracking-tighter font-montserrat uppercase">
                     Construímos{' '}

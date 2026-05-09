@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import WhatsAppFAB from './components/WhatsAppFAB';
 import Leadership from './components/Leadership';
 import LoadingScreen from './components/LoadingScreen';
-import ScrollMeteor from './components/ScrollMeteor';
 
 /* ─── App ────────────────────────────────────────────────────────────────────── */
 function App() {
@@ -29,8 +28,6 @@ function App() {
                 animate={{ opacity: isLoading ? 0 : 1 }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
             >
-                {/* Meteoro scroll-driven + lua */}
-                <ScrollMeteor />
 
                 <Navbar />
 
