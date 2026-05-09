@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Linkedin, Code2, TrendingUp } from 'lucide-react';
 import otacilioImg from '../assets/otacilio.PNG';
+import pedroImg from '../assets/pedro.PNG';
 
 const leaders = [
     {
@@ -22,7 +23,7 @@ const leaders = [
         role: "Fundador & CSO",
         position: "Diretor de Vendas",
         description: "Especialista em estratégia comercial de sistemas empresariais com foco em transformação digital. Conduz a expansão de mercado e o relacionamento com clientes estratégicos, garantindo soluções que agregam valor real aos negócios.",
-        image: null,
+        image: pedroImg,
         icon: TrendingUp,
         skills: [
             "Estratégia Comercial", "Consultoria de Sistemas", "Transformação Digital",
