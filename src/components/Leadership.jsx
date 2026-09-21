@@ -19,7 +19,7 @@ const leaders = [
         linkedin: "https://www.linkedin.com/in/otacilio-de-oliveira-neto-a8349b205/"
     },
     {
-        name: "Pedro Aleknovic",
+        name: "Pedro Rosalino",
         role: "Fundador & CSO",
         position: "Diretor de Vendas",
         description: "Especialista em estratégia comercial de sistemas empresariais com foco em transformação digital. Conduz a expansão de mercado e o relacionamento com clientes estratégicos, garantindo soluções que agregam valor real aos negócios.",
