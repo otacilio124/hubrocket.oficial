@@ -126,7 +126,7 @@ const Leadership = () => {
                         {/* Card glow on hover */}
                         <div className="absolute inset-0 bg-gradient-to-br from-accent-cta/5 to-accent-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[2rem] pointer-events-none" />
 
-                        <div className="flex flex-col items-center md:items-start gap-6 relative z-10">
+                        <div className="flex flex-col items-center gap-6 relative z-10">
                             {/* Photo / Icon */}
                             <div className="relative flex-shrink-0">
                                 <motion.div
